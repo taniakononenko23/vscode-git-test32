@@ -1,0 +1,15 @@
+.article{
+    height: 300px;
+    flex-basis: 300px;
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    flex-grow: 1;
+}
+.header{
+    text-align: center;  
+}
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
