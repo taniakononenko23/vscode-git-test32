@@ -1,15 +1,16 @@
-.article{
-    height: 300px;
-    flex-basis: 300px;
-    margin: 8px;
+.article {
+    flex: 1 0 300px;
     padding: 16px;
+    margin: 8px;
     background-color: bisque;
-    flex-grow: 1;
-}
+  }
 .header{
     text-align: center;  
 }
 .articles-list {
     display: flex;
     flex-wrap: wrap;
+  }
+  *{
+      box-sizing: border-box;
   }
